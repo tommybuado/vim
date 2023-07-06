@@ -10,3 +10,6 @@
 [submodule "pack/plugins/start/typescript"]
 	path = pack/plugins/start/typescript
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/plugins/start/lit-html"]
+	path = pack/plugins/start/lit-html
+	url = https://github.com/jonsmithers/vim-html-template-literals.git
