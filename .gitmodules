@@ -7,3 +7,6 @@
 [submodule "pack/plugins/start/javascript"]
 	path = pack/plugins/start/javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "pack/plugins/start/typescript"]
+	path = pack/plugins/start/typescript
+	url = https://github.com/leafgarland/typescript-vim.git
