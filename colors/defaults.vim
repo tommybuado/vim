@@ -27,3 +27,8 @@ highlight SpecialKey     ctermfg=240 ctermbg=NONE
 " hightlight charater when the line exceeds 80 characters
 highlight ColorColumn    ctermfg=15  ctermbg=240
 call matchadd('ColorColumn', '\%81v', 100)
+
+" ale warning and error signs
+highlight SignColumn     guibg=NONE ctermbg=NONE
+highlight ALEWarningSign ctermfg=11 ctermbg=NONE
+highlight ALEErrorSign   ctermfg=9  ctermbg=NONE
