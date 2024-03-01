@@ -42,6 +42,9 @@ set undofile
 " viminfo
 set viminfo+=n~/.vim/.viminfo
 
+" colorscheme
+colorscheme defaults
+
 " netrw settings
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
