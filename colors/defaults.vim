@@ -29,3 +29,8 @@ highlight CursorLine     ctermfg=NONE ctermbg=236  cterm=NONE
 
 highlight ColorColumn    ctermfg=15   ctermbg=240
 call matchadd("ColorColumn", "\\%81v", 100)
+
+" vim-ale plugin highlights
+highlight SignColumn     guibg=NONE   ctermbg=NONE
+highlight ALEWarningSign ctermfg=11   ctermbg=NONE
+highlight ALEErrorSign   ctermfg=9    ctermbg=NONE
