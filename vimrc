@@ -105,3 +105,7 @@ let g:ale_set_quickfix = 1
 
 let g:ale_set_balloons = 1
 let g:ale_completion_enabled = 1
+
+" lit-html plugin settings
+let g:htl_all_templates = 1
+let g:htl_css_templates = 1
