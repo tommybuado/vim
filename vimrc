@@ -6,6 +6,9 @@ let $VIMRC="$HOME/.vim/vimrc"
 filetype indent plugin on
 syntax on
 
+" use new regex engine
+set re=0
+
 set nocompatible
 set noswapfile
 set number
@@ -64,12 +67,14 @@ cnoremap jk <ESC>
 nmap <leader>l :set list!<CR>
 nmap <leader>, :nohl<CR>
 
+nmap J :+10<CR>
+nmap K :-10<CR>
+
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
 nmap gd :ALEGoToDefinition<CR>
 nmap gr :ALEFindReferences<CR>
-nmap K  :ALEHover<CR>
 
 " vim-ale plugin settings
 let g:ale_linters = {
