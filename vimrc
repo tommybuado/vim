@@ -53,6 +53,9 @@ let g:netrw_liststyle = 3
 let g:netrw_banner = 0
 let g:netrw_keepdir = 1
 
+" commands
+command -nargs=1 Mkdir execute 'silent !mkdir -p <args>' | redraw!
+
 " keybindings
 let mapleader=","
 
