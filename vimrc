@@ -11,7 +11,7 @@ set re=0
 
 set nocompatible
 set noswapfile
-set number
+set nonumber
 set nowrap
 set backspace=indent,eol,start
 set laststatus=2
