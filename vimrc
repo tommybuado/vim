@@ -12,3 +12,12 @@ noremap h <NOP>
 noremap j <NOP>
 noremap k <NOP>
 noremap l <NOP>
+
+let mapleader = ","
+
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+
+nmap <leader>, :nohl<CR>
