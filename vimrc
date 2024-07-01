@@ -13,6 +13,9 @@ noremap j <NOP>
 noremap k <NOP>
 noremap l <NOP>
 
+inoremap kj <ESC>
+vnoremap kj <ESC>
+
 let mapleader = ","
 
 set incsearch
