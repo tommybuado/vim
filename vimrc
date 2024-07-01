@@ -1,3 +1,5 @@
+let g:is_posix = 1
+
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
