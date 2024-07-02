@@ -44,3 +44,7 @@ nmap <leader>, :nohl<CR>
 
 set list! listchars=tab:›\ ,eol:¬,space:·
 nmap <leader>l :set list!<CR>
+
+nmap <leader>gs :Git<CR>
+nmap <leader>p :Git push<CR>
+nmap <leader>P :Git pull<CR>
