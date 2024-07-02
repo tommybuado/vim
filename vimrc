@@ -26,3 +26,6 @@ set ignorecase
 set smartcase
 
 nmap <leader>, :nohl<CR>
+
+set list! listchars=tab:›\ ,eol:¬,space:·
+nmap <leader>l :set list!<CR>
