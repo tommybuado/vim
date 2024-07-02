@@ -1,6 +1,19 @@
+filetype indent plugin on
+syntax on
 colorscheme defaults
 
 let g:is_posix = 1
+
+set nocompatible
+set hidden
+set noswapfile
+set nowrap
+set wildmenu
+set confirm
+set backspace=indent,eol,start
+set notimeout ttimeout ttimeoutlen=200
+set laststatus=2
+set pastetoggle=<F11>
 
 set shiftwidth=4
 set softtabstop=4
